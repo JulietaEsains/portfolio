@@ -1,0 +1,23 @@
+.home__social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.home__social-icon {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.home__social-icon:hover {
+  color: var(--first-color-alt);
+}
+
+/* MEDIA QUERIES */
+
+/* Para dispositivos grandes */
+@media screen and (min-width: 1024px) {
+  .home__social {
+    transform: translateX(-6rem);
+  }
+}

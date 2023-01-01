@@ -1,14 +1,19 @@
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
+    bottom: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
-    padding: 2rem 1.5rem 6rem;
+    padding: 2rem 1.5rem 1rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
-    transition: 5s;
+    transition: 0.3s;
   }
+}
+
+.show-menu {
+  bottom: 0;
 }
 
 .nav__list {
@@ -18,8 +23,8 @@
 
 .nav__close {
   position: absolute;
-  right: 1.5rem;
-  bottom: 5.8rem;
+  right: 1.3rem;
+  bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -27,4 +32,29 @@
 
 .nav__close:hover {
   color: var(--first-color-alt);
+}
+
+/* MEDIA QUERIES */
+
+/* Para dispositivos pequeños */
+@media screen and (max-width: 350px) {
+  .nav__menu {
+    padding: 1rem 0.25rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+}
+
+/* Para dispositivos medianos */
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: flex !important;
+    column-gap: 2rem !important;
+  }
+
+  .nav__menu {
+    margin-left: auto;
+  }
 }

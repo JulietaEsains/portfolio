@@ -12,9 +12,10 @@ function Header() {
         <div className="nav__logo">
           <a href="#home">Julieta Esains</a>
         </div>
-        {menuShown && (
-          <NavMenu toggleMenuShown={() => setMenuShown(!menuShown)} />
-        )}
+        <NavMenu
+          menuShown={menuShown}
+          toggleMenuShown={() => setMenuShown(!menuShown)}
+        />
         <NavButtons toggleMenuShown={() => setMenuShown(!menuShown)} />
       </nav>
     </header>
