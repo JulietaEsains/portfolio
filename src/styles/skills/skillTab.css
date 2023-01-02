@@ -1,0 +1,46 @@
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__title {
+  font-size: var(--h3-font-size);
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 0.7rem;
+  transition: 0.4s;
+}
+
+.skills__closed .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}
+
+/* MEDIA QUERIES */
+
+/* Para dispositivos pequeños */
+@media screen and (max-width: 350px) {
+  .skills__title {
+    font-size: var(--normal-font-size);
+  }
+}

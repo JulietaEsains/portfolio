@@ -1,0 +1,15 @@
+.skills__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--medium-font);
+}
+
+.skills__img {
+  height: 40px;
+}

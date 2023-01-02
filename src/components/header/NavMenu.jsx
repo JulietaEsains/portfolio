@@ -14,11 +14,10 @@ function NavMenu({ menuShown, toggleMenuShown }) {
   return (
     <div className={menuShown ? "nav__menu show-menu" : "nav__menu"}>
       <ul className="nav__list grid">
-        {sections.map((section, id) => (
+        {sections.map((section) => (
           <NavItem
-            key={id}
-            href={section.href}
-            section={section.name}
+            key={section.id}
+            section={section}
             toggleMenuShown={toggleMenuShown}
           />
         ))}
