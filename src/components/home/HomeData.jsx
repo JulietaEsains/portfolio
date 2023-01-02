@@ -11,6 +11,13 @@ function HomeData() {
         Soy estudiante de 4º año de Ingeniería en Sistemas de Información y me
         gusta dedicarme especialmente al desarrollo web.
       </p>
+      <a
+        href="mailto:jesains@gmail.com"
+        target="_blank"
+        className="btn btn-flex"
+      >
+        Contacto {">"}
+      </a>
     </div>
   );
 }

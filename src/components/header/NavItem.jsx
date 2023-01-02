@@ -5,7 +5,6 @@ function NavItem({ href, section, toggleMenuShown }) {
   return (
     <Link
       activeClass="active-link"
-      smooth
       spy
       to={href}
       className="nav__item nav__link"
