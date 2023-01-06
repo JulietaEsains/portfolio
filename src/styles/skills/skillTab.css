@@ -6,7 +6,6 @@
 }
 
 .skills__arrow {
-  font-size: 2rem;
   color: var(--first-color);
   margin-left: auto;
   transition: 0.4s;

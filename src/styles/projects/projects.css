@@ -1,0 +1,65 @@
+.projects__container {
+  overflow: initial;
+  margin-top: var(--mb-1-5);
+}
+
+.swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "" !important;
+}
+
+.project__swiper__icon {
+  font-size: 2rem !important;
+  color: var(--first-color) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 2rem !important;
+  color: var(--first-color) !important;
+}
+
+.swiper-button-prev {
+  left: -0.5rem !important;
+}
+
+.swiper-button-next {
+  right: -0.5rem !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--title-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullets {
+  outline: none !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: var(--first-color-alt) !important;
+}
+
+/* MEDIA QUERIES */
+
+/* Para dispositivos grandes */
+@media screen and (min-width: 1024px) {
+  /* .swiper-button-next {
+    right: -.5rem !important;
+  }
+
+  .swiper-button-prev {
+    left: -3.5rem !important;
+  } */
+}

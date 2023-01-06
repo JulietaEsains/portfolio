@@ -21,7 +21,8 @@ function SkillTab({ skillTab }) {
         <div>
           <h1 className="skills__title">{skillTab.title}</h1>
         </div>
-        <UilAngleDown className="skills__arrow" />
+        <UilAngleDown className="skills__arrow" 
+        size={30}/>
       </div>
       <div className="skills__list grid">
         {skillTab.skills.map((skill) => (

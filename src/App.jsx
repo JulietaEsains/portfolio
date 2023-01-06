@@ -3,6 +3,7 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Qualification from "./sections/Qualification";
+import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
 import "./styles/app.css";
 
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
+        <Projects />
       </main>
       <Footer />
     </>
