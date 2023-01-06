@@ -1,4 +1,4 @@
-export const skillTabs = [
+export const SKILL_TABS = [
   {
     id: 1,
     title: "Desarrollo Front End",

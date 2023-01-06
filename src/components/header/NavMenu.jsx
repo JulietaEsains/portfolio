@@ -1,6 +1,6 @@
 import UilTimes from "@iconscout/react-unicons/icons/uil-times";
 import NavItem from "../header/NavItem";
-import { sections as data } from "../../data/sections";
+import { SECTIONS as data } from "../../data/sections";
 import "../../styles/header/navMenu.css";
 import { useEffect, useState } from "react";
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import SkillTab from "../components/skills/SkillTab";
-import { skillTabs as data } from "../data/skillTabs";
+import { SKILL_TABS as data } from "../data/skillTabs";
 import "../styles/skills/skills.css";
 
 function Skills() {
