@@ -1,7 +1,12 @@
+import portfolio from "/img/portfolioProject.png";
+import uno from "/img/unoProject.png";
+import tictactoe from "/img/tictactoeProject.png";
+import questTracker from "../assets/img/questTrackerProject.PNG";
+
 export const PROJECTS = [
   {
     id: 1,
-    img: "/img/portfolioProject.png",
+    img: portfolio,
     title: "Portafolio web dinámico",
     date: "Feb. 2022 - Ago. 2022",
     description:
@@ -10,7 +15,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    img: "/img/unoProject.png",
+    img: uno,
     title: "UNO Multijugador",
     date: "Jun. 2022 - Jul. 2022",
     description:
@@ -19,7 +24,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    img: "/img/tictactoeProject.png",
+    img: tictactoe,
     title: "TA-TE-TI Multijugador",
     date: "Abr. 2022 - Jun. 2022",
     description:
@@ -28,7 +33,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    img: "/img/questTrackerProject.PNG",
+    img: questTracker,
     title: "Quest Tracker",
     date: "Dic. 2022 - en desarrollo",
     description:
