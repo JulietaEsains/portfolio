@@ -23,6 +23,10 @@
 
 #home-section .button {
     border: 1px solid var(--main-color);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #home-img {
