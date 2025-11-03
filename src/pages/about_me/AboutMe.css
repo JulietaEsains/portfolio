@@ -1,0 +1,11 @@
+#about-me-section h2 {
+    font-family: 'Lobster', 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: var(--main-color);
+}
+
+#about-me-section p {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: lighter;
+}

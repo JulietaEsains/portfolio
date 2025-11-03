@@ -1,3 +1,29 @@
 #main-container {
   margin: 0 100px;
 }
+
+section {
+  margin: 75px 0;
+}
+
+.animate-on-scroll {
+  /*opacity: 0;
+  visibility: hidden;*/
+}
+
+.active-element {
+  opacity: 1;
+  visibility: visible;
+  animation: 0.4s ease fadeIn 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
