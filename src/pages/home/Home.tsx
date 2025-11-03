@@ -3,6 +3,15 @@ import cv from '../../assets/pdfs/Curriculum Vitae - Julieta Esains Moltó.pdf';
 import './Home.css';
 
 function Home() {
+    const element = document.querySelector('.animate-on-scroll');
+    const observer = new IntersectionObserver(entries => {
+        if (element)
+            element.classList.toggle('active-element', entries[0].isIntersecting);
+    });
+
+    if (element)
+    observer.observe(element);
+
     return (
         <section id='home-section'>
             <div className='column'>
@@ -13,7 +22,7 @@ function Home() {
                 </p>
                 <a className='button' href={cv} download='Curriculum Vitae - Julieta Esains Moltó.pdf'>Descargar CV</a>
             </div>
-            <img id='home-img' src={image} alt="Julieta Esains" />
+            <img id='home-img' src={image} alt="Julieta Esains" className='animate-on-scroll'/>
         </section>
     );
 }
