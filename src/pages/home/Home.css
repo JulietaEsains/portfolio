@@ -7,18 +7,27 @@
 #home-section .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1em;
 }
 
 #home-section h1 {
     line-height: 0;
     font-weight: bold;
+    font-size: 35px;
 }
 
 #home-section h2,
 #home-section p {
     font-weight: lighter;
+}
+
+#home-section h2 {
+    font-size: 30px;
+}
+
+#home-section p {
+    font-size: 14px;
 }
 
 #home-section .button {
@@ -27,6 +36,15 @@
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    transition: box-shadow .25s linear;
+    font-size: 25px;
+}
+
+#home-section .button:hover {
+    box-shadow: 1px 0px 14px 13px var(--main-color);
+        -webkit-box-shadow: 1px 0px 14px 1px var(--main-color);
+        -moz-box-shadow: 1px 0px 14px 1px var(--main-color);
 }
 
 #home-img {

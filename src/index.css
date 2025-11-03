@@ -1,5 +1,6 @@
 :root {
-  --background-color: #060606;
+  --background-color-1: #060606;
+  --background-color-2: #111111;
   --text-color: #fff;
   --main-color: #11ceaa;
 }
@@ -7,7 +8,6 @@
 @font-face {
   font-family: 'Montserrat';
   src: url('./assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
-  /* Adjust path and format */
   font-weight: normal;
   font-style: normal;
 }
@@ -19,8 +19,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/fonts/lobster/LobsterTwo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--background-color);
   color: var(--text-color);
+  background-color: var(--background-color-1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
