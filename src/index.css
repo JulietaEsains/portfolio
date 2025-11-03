@@ -1,5 +1,6 @@
 :root {
-  --background-color: #060606;
+  --background-color-1: #060606;
+  --background-color-2: #111111;
   --text-color: #fff;
   --main-color: #11ceaa;
 }
@@ -27,8 +28,8 @@
 
 * {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--background-color);
   color: var(--text-color);
+  background-color: var(--background-color-1);
 }
 
 html {

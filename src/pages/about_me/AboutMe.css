@@ -1,7 +1,14 @@
+#about-me-section, 
+#about-me-section h2,
+#about-me-section p {
+    background-color: var(--background-color-2);
+}
+
 #about-me-section h2 {
     font-family: 'Lobster', 'Montserrat', sans-serif;
     font-size: 48px;
     color: var(--main-color);
+    margin: -75px 0 30px 0;
 }
 
 #about-me-section p {

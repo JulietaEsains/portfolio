@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import AboutMe from './pages/about_me/AboutMe';
 
@@ -13,10 +14,13 @@ function App() {
     observer.observe(element);
 
   return (
-    <main id='main-container'>
-      <Home></Home>
-      <AboutMe></AboutMe>
-    </main>
+    <>
+      <Header></Header>
+      <main id='main-container'>
+        <Home></Home>
+        <AboutMe></AboutMe>
+      </main>
+    </>
   );
 }
 

@@ -1,4 +1,4 @@
-import image from '../../assets/images/me.jpg';
+import image from '../../assets/images/me.png';
 import cv from '../../assets/pdfs/Curriculum Vitae - Julieta Esains Moltó.pdf';
 import './Home.css';
 
