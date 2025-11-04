@@ -1,4 +1,5 @@
 import './Header.css';
+import { Link } from 'react-scroll';
 
 function Header() {
     return (
@@ -6,13 +7,8 @@ function Header() {
             <div id="name"><span>Julieta</span> Esains Moltó</div>
             <div id="menu">
                 <ul>
-                    <li><a href="#home-section">INICIO</a></li>
-                    <li><a href="#about-me-section">SOBRE MÍ</a></li>
-                    <li><a href="#skills-section">HABILIDADES</a></li>
-                    <li><a href="#experience-section">EXPERIENCIA</a></li>
-                    <li><a href="#studies-section">ESTUDIOS</a></li>
-                    <li><a href="#projects-section">PROYECTOS</a></li>
-                    <li><a href="#contact-section">CONTACTO</a></li>
+                    <Link className='header-link' to='home-section' spy activeClass='active-header-link'>INICIO</Link>
+                    <Link className='header-link' to='about-me-section' spy activeClass='active-header-link'>SOBRE MÍ</Link>
                 </ul>
             </div>
         </nav>

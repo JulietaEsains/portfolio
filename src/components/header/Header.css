@@ -24,10 +24,15 @@ nav {
     padding-top: 5px;
 }
 
-#menu ul li a {
-    text-decoration: none;
+.active-header-link {
+    color: var(--main-color);
 }
 
-#menu ul li a:hover {
+.header-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-link:hover {
     color: var(--main-color);
 }
