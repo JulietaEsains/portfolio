@@ -13,7 +13,9 @@ function Home() {
                 </p>
                 <a className='button' href={cv} download='Curriculum Vitae - Julieta Esains Moltó.pdf'>Descargar CV</a>
             </div>
-            <img id='home-img' src={image} alt="Julieta Esains"/>
+            <div className='img-container'>
+                <img id='home-img' src={image} alt="Julieta Esains"/>
+            </div>
         </section>
     );
 }
